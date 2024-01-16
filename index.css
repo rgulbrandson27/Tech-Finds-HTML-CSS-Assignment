@@ -1,3 +1,105 @@
+/*  HOME PAGE */
+
+#row-1 {
+    background-color:rgb(70, 70, 70);
+    height: 25px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+#row-2 {
+    background-color:rgb(100, 100, 100);
+    height: 25px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+#row-3 {
+    background-color:rgb(130, 130, 130);
+    height: 25px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+#row-4 {
+    background-color:rgb(160, 160, 160);
+    height: 25px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+#row-5 {
+    background-color:rgb(190, 190, 190);
+    height: 25px;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+a {
+    color: white;
+    margin-left: 30px;
+}
+
+a:hover {
+    color: rgb(88, 209, 209);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: rgb(203, 245, 14);
+    background-color: violet;
+    margin-bottom: -1rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#random {
+    margin-top: -1rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 10px rgb(0, 157, 255);
+    color:rgb(17, 92, 139);
+    background-color: violet;
+}
+
+p {
+    display: flex;
+    margin-left: 30px;
+}
+
+#cover-image {
+    filter: drop-shadow(10px 8px 10px gray);
+}
+
+h5 {
+    rotate: -15deg;
+    padding-bottom: 10px;
+    margin-top: -60px;
+    margin-left: 30px;
+}
+
+
+
+/*  HTML PAGE */
+
 table {
     border-color: black;
     border-style: solid;
@@ -11,5 +113,32 @@ thead {
     border-style: solid;
     text-decoration-color: purple;
     
-    /* "background-color: rgb(64, 231, 231) */
+    background-color: rgb(64, 231, 231)
+}
+
+tr {
+ border: solid black 3px;
+}
+
+
+
+
+/*  CSS PAGE */
+
+/*  MEMES PAGE */
+
+/*  TREASURES PAGE */
+
+.note {
+    color: rgb(90, 60, 189);
+}
+
+.note2{
+    color: green;
+}
+
+.look {
+    color: rgb(218, 33, 45);
+    margin-bottom: 10px;
+    font-size: larger;
 }
